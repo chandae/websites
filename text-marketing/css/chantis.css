@@ -1,0 +1,149 @@
+
+body {
+  font-family: 'Poppins', 'sans-serif', 'serif';
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(50, 151, 240);
+}
+.main {
+  min-height: 90vh;
+  background-color: #f1f1f1;
+}
+
+/* ********************************************** NAVBAR ********************************************** */
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.logo-text {
+  flex: 1;
+  pointer-events: none;
+}
+.nav-items {
+  flex: 2;
+}
+.nav-links {
+  display: flex;
+  flex-flow: row wrap;
+}
+.nav-link {
+  flex: 1;
+  list-style: none;
+}
+.nav-buttons {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+.nav-button-1 {
+  color: rgb(50, 151, 240);
+  text-decoration: none;
+}
+.nav-button-1:hover {
+  color: #000;
+}
+.nav-button-2 {
+  color: rgb(50, 151, 240);
+  border: 1px solid rgb(50, 151, 240);
+  border-radius: 25px;
+  background-color: #ffffff;
+  padding: 12px 22px;
+}
+
+/* ******************************************** SECTION-1 ********************************************* */
+.section-1 {
+  text-align: center;
+}
+.intro-text-1 {
+  font-size: 72px;
+  margin-bottom: 0;
+}
+.intro-text-2 {
+  font-size: 72px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.intro-subtext {
+  padding: 5px 300px;
+}
+.intro-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* ******************************************** COMPONENTS ******************************************** */
+.btn {
+  color: #ffffff;
+  font-family: inherit;
+  border: 1px solid rgb(18, 126, 221);
+  border-radius: 25px;
+  background-color: rgb(18, 126, 221);
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+.btn:hover {
+  color: #000;
+  background-color: #ffffff;
+  border: 1px solid rgb(18, 126, 221);
+  transition: all .3s ease-in-out;
+}
+.btn-outline {
+  color: rgb(50, 151, 240);
+  font-family: inherit;
+  border: 2px solid rgb(50, 151, 240);
+  border-radius: 25px;
+  background-color: #ffffff;
+  padding: 10px 24px;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+.btn-outline:hover {
+  color: #fff;
+  border: 2px solid rgb(50, 151, 240);
+  background-color: rgb(50, 151, 240);
+  transition: all .3s ease-in-out;
+}
+
+/* ********************************************** STYLES ********************************************** */
+.px-main {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.px-1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.px-2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.py-1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.py-2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.cs-bold {
+  font-weight: 700;
+}
+
+.blue {
+  color: rgb(18, 126, 221);
+}
+.black {
+  color: black;
+}
