@@ -94,7 +94,7 @@ a:hover {
   transition: all .3s ease-in-out;
 }
 .btn:hover {
-  color: #000;
+  color: rgb(18, 126, 221);
   background-color: #ffffff;
   border: 1px solid rgb(18, 126, 221);
   transition: all .3s ease-in-out;
